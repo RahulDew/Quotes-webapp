@@ -1,0 +1,69 @@
+
+.wrapper, .wrapper3{
+    background-color: rgba(122, 170, 218, 0.561);
+    width: 50%;
+    min-width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    border-radius: 0.5rem;
+    padding: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper2{
+    width: 95%;
+    background-color: rgba(122, 170, 218, 0.561);
+    flex: none;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper3 {
+    width: 80%;
+    min-width: 25rem;
+}
+.wrapper .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+
+.container span, h2, .wrapper3 .blue{
+  color: rgb(43, 105, 167);
+  font-weight: bold;
+}
+
+.container input , .container button{
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: 0.5rem auto;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(87, 87, 87, 0.202);
+    padding: 0.5rem;
+}
+.container button{
+    border-radius: 0.5rem;
+    background-color: rgb(46, 120, 193);
+    color: white;
+    margin: 1rem auto;
+    padding: 0.4rem;
+    transition: 0.2s all ease-in-out;
+    font-weight: bold;
+}
+.container button:hover{
+    background-color: rgb(39, 102, 165);
+}
+.wrapper3 .heading {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+.wrapper3 .heading p {
+    font-size: 1.3rem;
+}
